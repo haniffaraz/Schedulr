@@ -1,15 +1,15 @@
 import React from 'react';
 import { Navbar, NavItem } from 'react-materialize';
-// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+
 
 class NavBar extends React.Component {
  render() {
    return (
-     <div>
-       <Navbar brand='Schedulr' center='true' className="nav brand-logo ">
+       <Navbar brand='Schedulr' center='true' className="nav brand-logo " right>
         <NavItem href="/">Providers</NavItem>
+        <NavItem href="/appointments">My Appointments</NavItem>
        </Navbar>
-     </div>
 
  )}
 }

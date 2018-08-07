@@ -1,3 +1,47 @@
 .row h3{
   text-align: center;
 }
+
+nav {
+  background-color: blue;
+}
+
+.centered {
+  text-align: center;
+}
+
+.modal.open {
+  background-color: lightblue;
+}
+
+.remove-button {
+  float: right;
+}
+
+.nav .nav-wrapper {
+  text-align: center;
+}
+ .card .card-action {
+  background-color: black;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+  color: white;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+  color: red;
+}
+
+.card.horizontal .card-image img {
+  width: 280px;
+  height: 330px;
+}
+
+.card.horizontal .card-stacked {
+  height: 330px;
+}
+
+.blue {
+    background-color: blue !important;
+}

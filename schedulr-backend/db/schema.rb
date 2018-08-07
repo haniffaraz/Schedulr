@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2018_07_20_153135) do
   create_table "providers", force: :cascade do |t|
     t.string "name"
     t.text "address"
+    t.string "img_url"
     t.string "specialty"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -26,11 +27,9 @@ ActiveRecord::Schema.define(version: 2018_07_20_153135) do
   create_table "slots", force: :cascade do |t|
     t.integer "provider_id"
     t.integer "user_id"
-    t.string "appointment_time"
-    t.integer "slot_duration_minutes"
-    t.integer "date"
-    t.string "start_time"
-    t.string "end_time"
+    t.string "title"
+    t.string "start"
+    t.string "end"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

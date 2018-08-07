@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ProviderCard from './ProviderCard';
+import {Card, Row, Col, Container, CardTitle} from 'react-materialize';
 
 const baseUrl = 'http://localhost:3000/api/v1/providers'
 
@@ -23,9 +24,9 @@ class ProviderList extends Component {
       return <ProviderCard key={provider.id} provider={provider}/>
     })
     return (
-      <div>
+      <Row s={12}>
         {providers}
-      </div>
+      </Row>
     );
   }
 }

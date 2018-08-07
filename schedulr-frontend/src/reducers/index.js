@@ -1,5 +1,3 @@
-import data from '../data'
-
 const initialState = {
   providers: [],
   selectedProvider: [],
@@ -11,6 +9,10 @@ export default function providerReducer (state = initialState, action) {
     case "LOAD_PROVIDERS":
     return {...state,
       providers: action.payload
+    }
+    case "LOAD_SLOTS":
+    return {...state,
+      slots: action.payload
     }
     default:
      return state
