@@ -1,6 +1,6 @@
 # Schedulr
 
-A Web Application that allows users to book appointments to various health providers, all online. No more wasting time and calling various providers to find an appointment that works for you. Schedulr allows you to see open slots for each provider on the platform and book an appointment with a click of a button. The app was built using ruby on rails as the backend and React and Redux as the frontend. Redux was used to manage global state.
+Schedulr is a web application built using Ruby on Rails backend and React and Redux frontend. It is built for the convenience of patients so they can book appointments without the need to call a receptionist. As long as there is an open slot available for a particular day and time, an appointment can be booked.
 
 Get Started By running the rails server, you will be able to use the backend. Backend and frontend run on separate ports. 
 
